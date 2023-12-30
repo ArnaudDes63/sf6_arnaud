@@ -1,0 +1,41 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight":"off",
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "files.autoSave": "onFocusChange",
+  "files.defaultLanguage": "markdown",
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.enablePreview": false,
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.colorTheme": "Tokyo Night",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.lineHeight": 22,
+  "editor.fontSize": 14,
+  "workbench.iconTheme" :"material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editor.selectionBackground": "#3D59A1",
+      "editor.selectionHighlightBackground": "#3D59A1"
+    }
+  },
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility",
+      ]
+    }
+  ]
+
+
+}
